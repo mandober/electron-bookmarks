@@ -1,2 +1,1 @@
-# electron-bookmarks
-Trial electron app
+# FP in JS
