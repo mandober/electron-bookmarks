@@ -15,7 +15,8 @@ export default flex;
 
 
 /*
-flex - decorate a polyadic function with the flex wrapper.
+
+flex - flexible decorator for polyadic functions.
 
 It is similar, but more flexible then currying, allowing complete freedom in how the args are supplied. It collects args until all are collected and then it calls the decorated function. It is possible to supply more args then required in which case the extra args are ignored.
 

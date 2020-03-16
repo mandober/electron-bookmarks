@@ -1,7 +1,7 @@
 'use strict';
 
 import assert from 'assert'
-import is_undef from '../src/is-undef.js'
+import is_void from '../src/is-undef.js'
 
 let samples = [
     {
@@ -31,9 +31,9 @@ let samples = [
     },
 ];
 
-(function is_undef_test() {
+(function is_void_test() {
     for (let obj of samples) {
         // console.log(obj.id);
-        assert.equal(is_undef(obj.actual), obj.expected);
+        assert.equal(is_void(obj.actual), obj.expected);
     }
 })();
