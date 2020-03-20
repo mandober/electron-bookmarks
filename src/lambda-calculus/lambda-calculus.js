@@ -30,5 +30,5 @@ right-assoc λ-abstraction, left-assoc application
 // id
 const id = a => a
 
-// η-expansion of id
-const eta = s => (a => a)(s)
+// η-conversion (to thunk)
+const eta = a => (() => a)

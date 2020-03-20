@@ -25,6 +25,7 @@ const cons = y => ([...xs]) => [y, ...xs]
 const append = ([...ys]) => ([...xs]) => [...ys, ...xs]
 
 
+
 export {head, tail, init, last, cons, append}
 
 

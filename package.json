@@ -7,7 +7,9 @@
     "homepage": "https://github.com/mandober/fpj#readme",
     "license": "MIT",
     "type": "module",
-    "keywords": ["fp"],
+    "keywords": [
+        "fp"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mandober/fpj.git"
@@ -17,5 +19,9 @@
     },
     "scripts": {
         "test": "node --harmony test/all.test.js"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.1.0"
     }
 }

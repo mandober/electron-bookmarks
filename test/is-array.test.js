@@ -1,7 +1,7 @@
 'use strict';
 
 import assert from 'assert'
-import is_array from '../src/is-array.js'
+import is_array from '../src/predicates/is-array.js'
 
 // isArrayTest
 (function is_array_test() {

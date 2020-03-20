@@ -1,7 +1,7 @@
 'use strict';
 
 import assert from 'assert'
-import is_void from '../src/is-undef.js'
+import isNullish from '../src/predicates/is-nullish.js'
 
 let samples = [
     {
@@ -31,9 +31,9 @@ let samples = [
     },
 ];
 
-(function is_void_test() {
+(function isNullishTest() {
     for (let obj of samples) {
         // console.log(obj.id);
-        assert.equal(is_void(obj.actual), obj.expected);
+        assert.equal(isNullish(obj.actual), obj.expected);
     }
 })();
