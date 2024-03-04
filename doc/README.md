@@ -1,8 +1,6 @@
-# Function-Orientated Programming
+# lo-fi
 
-JS orientated FP with lo-fi hi-fu's
 
-## But how about them apples?
 
 ### Tuple vs Curry: 1 n-tuple OR n 1-tuples
 
@@ -40,16 +38,6 @@ const foldr = (f, z, [x, ...xs]) =>
         ? z
         : curry(f) (x, curry(foldr) (f, z) (xs))
 ```
-
-
-### The Wrong Type
-
-Oh, noes, supplied argument has the wrong type!
-
-1. Unapologetically throw a tantrum right then and there, explode about swearing, take no prisoners, tear down everything. kaboom.
-2. Make sure no one's watching then do a quick coverup, pushing the official version about him not even something something her age.
-
-Options #1 seems appropriate in this uncertain JS world, possibly decorated with sharp teeth that indicate the error in an unpleasant way, and for that the employment of assertions, no, *contracts*, yes!, are due. Also contracts bring to the table an quasi regular type system, granular, with ℕ and ℤ, possibly ℚ and ℝ, hell even ℂ; the ability to require an injective function, demand a sum type, perhaps a Bool ╳ ℕ cross product.
 
 
 ## Symbolic Operators

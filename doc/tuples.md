@@ -1,6 +1,7 @@
 # Tuples
 
-JS doesn't have tuples, or more precisely, tuples kind of exists, but they are not first-class language items. This means, you cannot pass tuples around, e.g. pass a tuple into a function or return it from one; in brief, you cannot assign a tuple to a variable.
+No tuples in JS. Tuples kinda exist (as fn params and fn call list) but these are not first-class.
+
 
 (quiz solutions[^⑴])
 
